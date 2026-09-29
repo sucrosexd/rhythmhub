@@ -1,0 +1,149 @@
+@media (max-width: 1024px) {
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .games-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+
+    .nav-menu {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-container {
+        padding: 1rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 0.5rem 0;
+    }
+
+    .nav-link.active::after {
+        bottom: 0;
+    }
+
+    .hero-content h2 {
+        font-size: 1.75rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .games-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .game-card {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .game-image {
+        width: 120px;
+        min-width: 120px;
+        height: 120px;
+        border-radius: 0.375rem;
+    }
+
+    .game-content {
+        flex: 1;
+        padding: 1rem;
+    }
+
+    .filter-section {
+        flex-direction: column;
+    }
+
+    .search-box,
+    .filter-select {
+        width: 100%;
+    }
+
+    .form-container {
+        padding: 1rem;
+    }
+
+    .form-wrapper {
+        padding: 1.5rem;
+    }
+
+    .catalog {
+        padding: 1rem;
+    }
+
+    .features {
+        padding: 1.5rem;
+    }
+
+    .hero {
+        padding: 2rem 1rem;
+        margin: 2rem auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.25rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .features h3 {
+        font-size: 1.3rem;
+    }
+
+    .feature-card {
+        padding: 1.5rem;
+    }
+
+    .feature-card h4 {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 0.65rem 1rem;
+        font-size: 0.95rem;
+    }
+
+    .game-card {
+        flex-direction: column;
+    }
+
+    .game-image {
+        width: 100%;
+        min-width: auto;
+        height: 150px;
+    }
+
+    .catalog-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .form-wrapper h2 {
+        font-size: 1.3rem;
+    }
+}
+
