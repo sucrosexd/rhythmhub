@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">RhythmHub</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Главная</a></li>
+                <li><a href="catalog.html" class="nav-link active">Каталог</a></li>
+                <li><a href="login.html" class="nav-link">Вход</a></li>
+                <li><a href="register.html" class="nav-link">Регистрация</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="catalog">
+        <div class="catalog-header">
+            <h2>Каталог игр</h2>
+            <div class="filter-section">
+                <input type="text" id="searchInput" class="search-box" placeholder="Поиск игры...">
+                <select id="genreFilter" class="filter-select">
+                    <option value="">Все жанры</option>
+                    <option value="pop">Pop</option>
+                    <option value="electronic">Electronic</option>
+                    <option value="rock">Rock</option>
+                    <option value="anime">Anime</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="games-grid" id="gamesGrid">
+            <!-- Карточки игр будут добавлены здесь JS -->
+        </div>
+    </main>
+
+    <footer>
+        <p>2026 RhythmHub.</p>
+    </footer>
+
+    <script src="js/catalog.js"></script>
+</body>
+</html>
+
